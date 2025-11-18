@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import avatar from "../assets/avatar.png";
 
 /**
  * Updated Portfolio.tsx
@@ -179,7 +180,7 @@ export default function Portfolio() {
 
               <div className="relative w-56 h-56 rounded-3xl bg-gradient-to-br from-sky-400/30 to-purple-500/30 border border-white/8 flex items-center justify-center backdrop-blur-sm overflow-hidden">
                 <img
-                  src="/src/assets/avatar.png"
+                  src={avatar}
                   alt="Megh Rana"
                   className="w-full h-full object-cover rounded-3xl"
                 />
